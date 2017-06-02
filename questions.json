@@ -1,0 +1,10 @@
+{ "questions": [{
+  "author": "Dan Jacob",
+  "content": "What programming language should I learn?",
+  "notes": "For a beginner"
+}, {
+  "author": "John Smith",
+  "content": "What is the latest trend in the tech industry?",
+  "notes": "How will it affect the world?"
+}]
+}
