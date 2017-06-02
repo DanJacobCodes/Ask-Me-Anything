@@ -9,5 +9,11 @@
 
 {{new-question saveQuestion2="saveQuestion3"}}
 
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+
+<h2> All Answers </h2>
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.answer_content}} - by {{answer.answer_author}}</li>
+  {{/each}}
+</ul>

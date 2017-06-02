@@ -6,5 +6,12 @@
   "author": "John Smith",
   "content": "What is the latest trend in the tech industry?",
   "notes": "How will it affect the world?"
-}]
+}],
+"answers": [{
+   "answer_author": "Andrea",
+   "answer_content": "Yes!"
+ }, {
+   "answer_author": "Alex",
+   "answer_content": "No!"
+ }]
 }
