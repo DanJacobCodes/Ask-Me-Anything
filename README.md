@@ -1,7 +1,11 @@
-# ama
+# Ask Me Anything
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+### By Dan Jacob 6/2/17
+
+Epicodus JavaScript Project Week 2 || Ember
+
+## Description
+This application serves as practice with Ember JS. With this application, users will be able to create a Quora/Reddit type of forum. Users can ask questions pertaining to software development or answer questions about software development. This application also relies on Firebase to retrieve, update, and delete data from the cloud database.
 
 ## Prerequisites
 
@@ -37,9 +41,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
