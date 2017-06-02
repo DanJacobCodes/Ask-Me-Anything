@@ -1,5 +1,5 @@
 <li>
-  {{question.author}}'s {{question.content}} in {{question.city}}
-  <button {{action 'delete' question}}>Delete Question</button>
-
+  {{question.owner}}'s in {{question.content}}
+  {{update-question question=question update="update"}}
+  <button {{action 'delete' question}}>Delete</button>
 </li>
