@@ -4,7 +4,7 @@ Can you help {{question.author}} with their question?
 <h2> Answers </h2>
 <ul>
   {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
   {{/each}}
 </ul>
 <button {{action 'delete' question}}>Delete</button>
