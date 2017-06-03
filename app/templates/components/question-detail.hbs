@@ -1,10 +1,12 @@
-Can you help {{question.author}} with their question?
+<br>
+<h5>Can you help {{question.author}} with this question?</h5>
 
 
-<h2> Answers </h2>
 <ul>
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
   {{/each}}
 </ul>
-<button {{action 'delete' question}}>Delete</button>
+<br>
+
+<button {{action 'delete' question}} class="btn red">Delete</button>

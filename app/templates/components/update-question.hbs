@@ -17,9 +17,9 @@
         {{input value=notes id="notes" placeholder=question.notes}}
       </div>
 
-      <button {{action 'update' question}}>Save</button>
+      <button {{action 'update' question}} class="btn green">Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'updateQuestionForm'}}>Update</button>
+  <button {{action 'updateQuestionForm'}} class="btn orange">Update</button>
 {{/if}}

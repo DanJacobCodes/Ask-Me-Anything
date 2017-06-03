@@ -1,19 +1,25 @@
-<h1>Ask Me Anything</h1>
-<h2>Add or answer a question below</h2>
+<div class="jumbotron">
+  <h2>Developer AMA</h2>
+</div>
 
-<ul>
-  {{#each model.questions as |question|}}
-     {{question-tile question=question}}
-  {{/each}}
-</ul>
+<h5>Add or answer a question below</h5>
+<div class="well">
+  <ul>
+    {{#each model.questions as |question|}}
+       {{question-tile question=question}}
+    {{/each}}
+  </ul>
+</div>
+
 
 {{new-question saveQuestion2="saveQuestion3"}}
 
 
 <h2> All Answers </h2>
-
-<ul>
-  {{#each model.answers as |answer|}}
-    <li>{{answer.answer_content}} - by {{answer.answer_author}}</li>
-  {{/each}}
-</ul>
+  <div class="well">
+    <ul>
+      {{#each model.answers as |answer|}}
+        <li>{{answer.answer_content}}  by {{answer.answer_author}}</li>
+      {{/each}}
+    </ul>
+  </div>
