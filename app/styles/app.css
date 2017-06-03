@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+}
+
+#indexjumbo {
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.jumbotron{
+background-color: white;
+}
+
+#all_answers{
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+}
+
+#add_quest{
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+}
+.nav-wrapper{
+  background-color:#ef9a9a;
+}
+
+h2{
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
+#help{
+  margin-top: 15em;
+  background-color:white;
+
+
+h3{
+  font-size: 12pt;
+}
+
+
+#contact_jumbo{
+  display: block;
+  margin: auto;
+  width: 30%;
+}

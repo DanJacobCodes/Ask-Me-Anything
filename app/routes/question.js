@@ -23,7 +23,6 @@ export default Ember.Route.extend({
         });
         this.transitionTo('question', question);
       },
-
       destroyQuestion(question) {
         var answer_deletions = question.get('answers').map(function(answer) {
           return answer.destroyRecord();

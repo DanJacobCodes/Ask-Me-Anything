@@ -1,12 +1,16 @@
 <br>
+<div class="well" id="help">
+
+
 <h5>Can you help {{question.author}} with this question?</h5>
 
 
-<ul>
-  {{#each question.answers as |answer|}}
+<ul class="collection">
+  {{#each answer.answers as |answer|}}
     {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
   {{/each}}
 </ul>
+</div>
 <br>
 
 <button {{action 'delete' question}} class="btn red">Delete</button>
