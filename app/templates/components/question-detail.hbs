@@ -5,12 +5,12 @@
 <h5>Can you help {{question.author}} with this question?</h5>
 
 
+<h2> Answers </h2>
+<hr>
 <ul class="collection">
-  {{#each answer.answers as |answer|}}
-    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
   {{/each}}
 </ul>
 </div>
-<br>
-
 <button {{action 'delete' question}} class="btn red">Delete</button>
