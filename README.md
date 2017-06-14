@@ -4,7 +4,7 @@
 
 Epicodus JavaScript Project Week 2 || Ember
 
-##Planning
+## Planning
 1. Configuration/dependencies
 * Node.js/npm
 * Ember
